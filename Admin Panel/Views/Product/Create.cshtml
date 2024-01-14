@@ -1,0 +1,68 @@
+﻿@model ProductViewModel
+@inject IUnitOfWork unitOfWork
+@{
+    var brands = unitOfWork.Repository<ProductBrand>().GetAllAsync().Result.Select(pb => new SelectListItem { Text = pb.Name, Value = pb.Id.ToString() });
+    var types = unitOfWork.Repository<ProductType>().GetAllAsync().Result.Select(pt => new SelectListItem { Text = pt.Name, Value = pt.Id.ToString() });
+}
+<h2>Add New Product</h2>
+
+<form asp-action="Create" enctype="multipart/form-data">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price" class="control-label"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Image" class="control-label"></label>
+        <div class="custom-file">
+            <input asp-for="Image" type="file" accept="image/*" onchange="loadPreview(event)" class="custom-file-input" id="pictureUrlInput">
+            <label class="custom-file-label" for="pictureUrlInput">Choose file</label>
+        </div>
+        <span asp-validation-for="Image" class="text-danger"></span>
+        <div class="row mt-3">
+            <div class="col-md-3 m-auto">
+                <img id="preview" class="rounded img-fluid" />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ProductBrand" class="control-label"></label>
+        <select asp-for="ProductBrandId" asp-items="@brands" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ProductType" class="control-label"></label>
+        <select asp-for="ProductTypeId" asp-items="@types" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Create</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>
+
+@section scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        function loadPreview(event) {
+            var preview = document.getElementById('preview');
+            preview.src = URL.createObjectURL(event.target.files[0]);
+        }
+    </script>
+}

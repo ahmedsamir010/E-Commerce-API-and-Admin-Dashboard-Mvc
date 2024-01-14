@@ -1,0 +1,38 @@
+[
+  {
+    "ShortName": "UPS1",
+    "Description": "Fastest delivery time",
+    "DeliveryTime": "1-2 Days",
+    "Cost": 10.00
+  },
+  {
+    "ShortName": "UPS2",
+    "Description": "Quick delivery within 5 days",
+    "DeliveryTime": "2-5 Days",
+    "Cost": 5.00
+  },
+  {
+    "ShortName": "UPS3",
+    "Description": "Affordable option with average delivery time",
+    "DeliveryTime": "5-10 Days",
+    "Cost": 2.00
+  },
+  {
+    "ShortName": "FREE",
+    "Description": "Free! You get what you pay for",
+    "DeliveryTime": "1-2 Weeks",
+    "Cost": 0.00
+  },
+  {
+    "ShortName": "PREMIUM",
+    "Description": "Premium service for exceptional delivery experience",
+    "DeliveryTime": "1-3 Days",
+    "Cost": 20.00
+  },
+  {
+    "ShortName": "SAME-DAY",
+    "Description": "Get it today! Same-day delivery within local area",
+    "DeliveryTime": "Same Day",
+    "Cost": 12.00
+  }
+]

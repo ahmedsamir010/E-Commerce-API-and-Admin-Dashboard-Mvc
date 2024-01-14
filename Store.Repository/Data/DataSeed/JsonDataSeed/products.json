@@ -1,0 +1,218 @@
+[
+  {
+    "Name": "Nike Air Zoom Pegasus 38",
+    "Description": "Men's running shoes, black/white",
+    "Price": 119.99,
+    "PictureUrl": "images/products/1.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Adidas Ultraboost 21",
+    "Description": "Men's running shoes, grey/white",
+    "Price": 180.0,
+    "PictureUrl": "images/products/2.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Apple iPhone 13",
+    "Description": "6.1-inch smartphone, A15 Bionic chip",
+    "Price": 799.0,
+    "PictureUrl": "images/products/3.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Samsung Galaxy S21",
+    "Description": "6.2-inch smartphone, Exynos 2100",
+    "Price": 799.99,
+    "PictureUrl": "images/products/4.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Lenovo IdeaPad Flex 5",
+    "Description": "14-inch 2-in-1 laptop, AMD Ryzen 5, 16GB RAM, 512GB SSD",
+    "Price": 759.99,
+    "PictureUrl": "images/products/5.jpg",
+    "ProductTypeId": 3,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Dell XPS 15",
+    "Description": "15.6-inch laptop, Intel Core i7, 16GB RAM, 512GB SSD",
+    "Price": 1499.99,
+    "PictureUrl": "images/products/6.jpg",
+    "ProductTypeId": 3,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Sony WH-1000XM4",
+    "Description": "Wireless noise-cancelling headphones",
+    "Price": 349.99,
+    "PictureUrl": "images/products/7.jpg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "Bose QuietComfort Earbuds",
+    "Description": "Wireless noise-cancelling earbuds",
+    "Price": 279.0,
+    "PictureUrl": "images/products/8.jpg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 8
+  },
+  {
+    "Name": "Canon EOS Rebel T8i",
+    "Description": "DSLR camera, 24.2MP",
+    "Price": 899.99,
+    "PictureUrl": "images/products/9.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 9
+  },
+  {
+    "Name": "Nikon Z50",
+    "Description": "Mirrorless camera, 20.9MP",
+    "Price": 999.95,
+    "PictureUrl": "images/products/10.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 10
+  },
+  {
+    "Name": "Fitbit Versa 3",
+    "Description": "Smartwatch, heart-rate monitor, GPS",
+    "Price": 229.95,
+    "PictureUrl": "images/products/11.jpg",
+    "ProductTypeId": 6,
+    "ProductBrandId": 11
+  },
+  {
+    "Name": "Samsung Galaxy Watch 4",
+    "Description": "Smartwatch, fitness tracking, AMOLED screen",
+    "Price": 249.99,
+    "PictureUrl": "images/products/12.jpg",
+    "ProductTypeId": 6,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Microsoft Xbox Series X",
+    "Description": "Gaming console, 4K/120fps, 1TB SSD",
+    "Price": 499.99,
+    "PictureUrl": "images/products/13.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 12
+  },
+  {
+    "Name": "Sony PlayStation 5",
+    "Description": "Gaming console, 4K/60fps, 825GB SSD",
+    "Price": 499.99,
+    "PictureUrl": "images/products/14.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "LG OLED CX",
+    "Description": "55-inch 4K OLED TV, AI ThinQ",
+    "Price": 1599.99,
+    "PictureUrl": "images/products/15.jpg",
+    "ProductTypeId": 8,
+    "ProductBrandId": 13
+  },
+  {
+    "Name": "Sony Bravia XR A80J",
+    "Description": "65-inch 4K OLED TV, Google TV",
+    "Price": 2499.99,
+    "PictureUrl": "images/products/16.jpg",
+    "ProductTypeId": 8,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "Nike Air Max 2090",
+    "Description": "Men's shoes, black/white",
+    "Price": 149.99,
+    "PictureUrl": "images/products/17.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Adidas Stan Smith",
+    "Description": "Men's shoes, white/green",
+    "Price": 80.0,
+    "PictureUrl": "images/products/18.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Apple MacBook Pro 16-inch",
+    "Description": "16-inch laptop, M1 Max chip, 32GB RAM, 1TB SSD",
+    "Price": 2799.0,
+    "PictureUrl": "images/products/19.jpg",
+    "ProductTypeId": 3,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Samsung Galaxy Book Pro",
+    "Description": "13.3-inch laptop, Intel Core i7, 16GB RAM, 512GB SSD",
+    "Price": 1199.99,
+    "PictureUrl": "images/products/20.jpg",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Bose QuietComfort 35 II",
+    "Description": "Wireless noise-cancelling headphones",
+    "Price": 299.0,
+    "PictureUrl": "images/products/21.jpg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 8
+  },
+  {
+    "Name": "Canon EOS R5",
+    "Description": "Mirrorless camera, 45MP",
+    "Price": 3899.0,
+    "PictureUrl": "images/products/22.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 9
+  },
+  {
+    "Name": "Nikon Z7 II",
+    "Description": "Mirrorless camera, 45.7MP",
+    "Price": 2999.95,
+    "PictureUrl": "images/products/23.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 10
+  },
+  {
+    "Name": "Fitbit Charge 5",
+    "Description": "Fitness tracker, heart-rate monitor, GPS",
+    "Price": 179.95,
+    "PictureUrl": "images/products/24.jpg",
+    "ProductTypeId": 6,
+    "ProductBrandId": 11
+  },
+  {
+    "Name": "LG CX",
+    "Description": "48-inch 4K OLEDTV, AI ThinQ",
+    "Price": 1399.99,
+    "PictureUrl": "images/products/25.jpg",
+    "ProductTypeId": 8,
+    "ProductBrandId": 13
+  },
+  {
+    "Name": "Sony Bravia XR A90J",
+    "Description": "55-inch 4K OLED TV, Google TV",
+    "Price": 3399.99,
+    "PictureUrl": "images/products/26.jpg",
+    "ProductTypeId": 8,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "Nike Air Zoom Tempo NEXT",
+    "Description": "Men's running shoes, blue/white",
+    "Price": 200.0,
+    "PictureUrl": "images/products/27.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  }
+]
